@@ -4,6 +4,9 @@
 
 Simple FunctionTraits header-only "tool", inspired by [stackoverflow discussion](https://stackoverflow.com/questions/7943525/is-it-possible-to-figure-out-the-parameter-type-and-return-type-of-a-lambda)
 
+Work with both regular functions and functors.
+Doesn't support generic lambdas `[](auto x) { return x; }`cpp
+
 ## Usage
 
 ```cpp
