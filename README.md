@@ -6,7 +6,7 @@ Simple FunctionTraits header-only "tool", inspired by [stackoverflow discussion]
 
 ## Usage
 
-```
+```cpp
 std::size_t func(int, const std::string &s) { return s.size(); }
 auto lambda = [](int, const std::string &s) { return s.size(); };
 
